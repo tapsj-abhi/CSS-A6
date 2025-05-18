@@ -1,0 +1,174 @@
+
+  body{
+    background-image:url(./shara\ desert.jpg);
+    background-size:cover;
+    padding:50px;
+}
+.container1{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    padding:10px;
+/*    border:1px solid;*/
+}
+.logo{
+  background:url(./logo.png);
+  background-size:cover;
+  height:70px;
+  width:70px;
+}
+.sub1{
+   display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.menu {
+    justify-self: right;
+}
+.menu a{
+    text-decoration:none;
+    color:white;
+    font-size:large;
+    margin:20px;
+}
+.menubutton {
+    background: url(./menu.png);
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    cursor:pointer;
+    transition-duration:1s;
+}
+
+.button{
+    height:40px;
+    width:150px;
+    border-radius:40px;
+    border:none;
+    margin-top:30px;
+    font-weight:bolder;
+    transition-duration:1s;
+}
+
+
+.menubutton:hover {
+    transform: scale3d(1.1,1.1,1.1);
+}
+
+.sahara {
+    color: white;
+    font-size: 100px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.text2{
+    font-size:larger;
+    color:white;
+}
+.button:hover {
+    transform: scale3d(1.1,1.1,1.1);
+}
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+    /*    border:1px solid;*/
+}
+.container2_sub1 {
+    margin: 10px;
+    width: 60%;
+}
+.container2_sub2 {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.sub2_1 {
+    display: flex;
+}
+h3{
+    text-align:center;
+    color: white;
+}
+p{
+  color: white;
+}
+
+
+.box1 {
+    height: 250px;
+    width: 200px;
+    background: url(./pic-1.png);
+    background-size: cover;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    transition-duration: 1s;
+}
+.box2 {
+    height: 250px;
+    width: 200px;
+    background: url(./pic-2.png);
+    background-size: cover;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    transition-duration: 1s;
+}
+.sub2_2 {
+    display: flex;
+}
+.box3 {
+    height: 250px;
+    width: 200px;
+    background: url(./pic-3.png);
+    background-size: cover;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    transition-duration: 1s;
+}
+.box4 {
+    height: 250px;
+    width: 200px;
+    background: url(./pic-4.png);
+    background-size: cover;
+    margin: 10px;
+    padding:10px;
+    box-sizing:border-box;
+    border-radius: 10px;
+    transition-duration:1s;
+}
+ .box1:hover {
+        transform: scale3d(1.1,1.1,1.1);
+    }
+    .box2:hover {
+        transform: scale3d(1.1,1.1,1.1);
+    }
+    .box3:hover {
+        transform: scale3d(1.1,1.1,1.1);
+    }
+.box4:hover{
+    transform:scale3d(1.1,1.1,1.1);
+}
+@media (max-width: 420px) {
+    .sub2_1{
+      position: absolute;
+        display:flex;
+        flex-direction:column;
+    }
+    .sub2_2 {
+      position: absolute;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+
